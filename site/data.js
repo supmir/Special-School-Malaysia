@@ -188,11 +188,10 @@ export const schoolByCat = {
     },
   ],
 };
-
 export const categories = [
-  { categoryId: "hearingImpaired", text: "Hearing Impaired" },
-  { categoryId: "visuallyImpaired", text: "Visually impaired" },
-  { categoryId: "slowLearner", text: "Slow Learner" },
-  { categoryId: "dyslexic", text: "Dyslexic" },
-  { categoryId: "ADHD", text: "ADHD" },
+  { text: "Hearing Impairment", categoryId: "hearingImpaired" },
+  { text: "Visual Impairement ", categoryId: "visuallyImpaired" },
+  { text: "Slow Learner", categoryId: "slowLearner" },
+  { text: "Dyslexia", categoryId: "dyslexic" },
+  { text: "ADHD", categoryId: "ADHD" },
 ];
