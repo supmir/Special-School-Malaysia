@@ -195,3 +195,14 @@ export const categories = [
   { text: "Dyslexia", categoryId: "dyslexic" },
   { text: "ADHD", categoryId: "ADHD" },
 ];
+export const cols = [
+  "Type",
+  "Name of School",
+  "Website",
+  "Email ",
+  "Handphone Number ",
+  "Address ",
+  "Education Level ",
+  "Facilities Offered",
+  "Type Of School ",
+];
