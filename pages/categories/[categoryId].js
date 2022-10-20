@@ -22,7 +22,6 @@ export async function getStaticPaths() {
 }
 export async function getStaticProps(context) {
   const { categoryId } = context.params;
-  console.log(schoolByCat[categoryId]);
   return {
     props: {
       schools: schoolByCat[categoryId],
