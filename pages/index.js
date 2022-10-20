@@ -1,15 +1,8 @@
 import Link from "next/link";
 import Default from "../components/layouts/default";
+import { categories } from "../site/data";
 
 export default function Home() {
-  const categories = [
-    { href: "hearingImpaired", text: "Hearing Impaired" },
-    { href: "visuallyImpaired", text: "Visually impaired" },
-    { href: "slowLearner", text: "Slow Learner" },
-    { href: "dyslexic", text: "Dyslexic" },
-    { href: "ADHD", text: "ADHD" },
-  ];
-
   return (
     <Default>
       <div>
@@ -18,9 +11,9 @@ export default function Home() {
         </div>
 
         <div className="flex justify-around flex-wrap gap-y-2 my-10">
-          {categories.map(({ href, text }) => (
+          {categories.map(({ categoryId, text }) => (
             <div className="w-full sm:w-1/2 md:w-1/3 px-2">
-              <Link href={`/categories/${href}`}>
+              <Link href={`/categories/${categoryId}`}>
                 <div className="text-center border border-black rounded-xl">
                   {text}
                 </div>
