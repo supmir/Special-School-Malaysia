@@ -1,0 +1,186 @@
+export const schoolByCat = {
+  hearingImpaired: [
+    {
+      Type: "Hearing Impairment",
+      "Name of School": "SKPKK (SEKOLAH KEBANGSAAN  PENDIDIKAN KHAS KUANTAN ) ",
+      Website: "http://blogskpkk.blogspot.com/p/blog-page.html",
+      "Email ": "\xa0cba4082.skpkkuantan@moe.goe.my",
+      "Handphone Number ": "09-5474049",
+      "Address ":
+        "Sekolah Kebangsaan Pendidikan Khas KuantanBandar Indera Mahkota 2,Pahang",
+      "Education Level ": "Primary ",
+      "Facilities Offered": "Hearing Aid , Disable Toilet and Disable Parking ",
+      "Type Of School ": "Government",
+      TypeCodes: "hearingImpaired",
+    },
+    {
+      Type: "Hearing Impairment",
+      "Name of School": "SKPK Muar (SEKOLAH KEBANSAAN PENDIDIKAN KHAS MUAR ",
+      Website: "https://skpkmuar.wordpress.com/",
+      "Email ": "JEA5094@moe.gov.my",
+      "Handphone Number ": "06-9515022",
+      "Address ":
+        "SR Pendidikan Khas Muar, Jalan Tunku Bendahara, Kampung Dato Bentara Luar, 84000 Muar Johor ",
+      "Education Level ": "Primary ",
+      "Facilities Offered":
+        "Braill , Hearing Aid , Disable Toilet and Disable Parking ",
+      "Type Of School ": "Government",
+      TypeCodes: "hearingImpaired",
+    },
+    {
+      Type: "Hearing Impairment",
+      "Name of School":
+        "SKPK BATU PAHAT  (SEKOLAH KEBANSAAN PENDIDIKAN KHAS BATU PAHAT ",
+      Website: "https://skpk-batupahat.blogspot.com ",
+      "Email ": "jba0093@gmail.com",
+      "Handphone Number ": "\xa0\xa007-4341139",
+      "Address ":
+        "Jalan Lim Lew Leong, Taman Tanah Merah, 83000 Batu Pahat, Johor",
+      "Education Level ": "Primary ",
+      "Facilities Offered":
+        "Hearing Aid , Disable Toilet and Disable Parking , Disable Ramp and Hand Railing ",
+      "Type Of School ": "Government",
+      TypeCodes: "hearingImpaired",
+    },
+    {
+      Type: "Hearing Impairment",
+      "Name of School": "SK PENDIDIKAN KHAS KOTA SAMARAHAN ",
+      Website: "http://skpkkotasamarahan.blogspot.com/",
+      "Email ": "YBB1204@moe.gov.my",
+      "Handphone Number ": "082-673672",
+      "Address ":
+        "SKPK KOTA SAMARAHAN , JALAN DATO MUHD MUSA ,94300 SAMARAHAN , SARAWAK",
+      "Education Level ": "Primary ",
+      "Facilities Offered": "Disable Toilet and Disable Ramps ",
+      "Type Of School ": "Government",
+      TypeCodes: "hearingImpaired",
+    },
+    {
+      Type: "Hearing Impairment",
+      "Name of School": "SKPK SIBU(SEKOLAH KEBANGSAAN PENDIDAKAN KHAS SIBU ",
+      Website: "https://skpksibu.blogspot.my ",
+      "Email ": "\xa0yba3102@moe.gov.my",
+      "Handphone Number ": "\xa0\xa0084-337244",
+      "Address ": "Jalan Bandong, Kampung Nangka, 96000 Sibu, Sarawak",
+      "Education Level ": "Primary ",
+      "Facilities Offered":
+        "Hearing Aid , Disable Toilet and Disable  Parking , Disable Ramp and Hand Railing ",
+      "Type Of School ": "Govermernt ",
+      TypeCodes: "hearingImpaired",
+    },
+    {
+      Type: "Hearing Impairment",
+      "Name of School":
+        "SMKV Inderapura ( SM Pendidikan Khas Vokational Inderapura)",
+      Website: "http://smpkvip.blogspot.com/",
+      "Email ": "JEA8014@moe.gov.my",
+      "Handphone Number ": "07-36625625",
+      "Address ":
+        "SM Pendidikan Khas Vokasional, Sisiran Indahpura 36/6, Taman Muhibbah, 81000 Senai , Johor",
+      "Education Level ": "Secondary ",
+      "Facilities Offered":
+        "Braill, Hearing Aid , Disable Toilet and Disable Parking ",
+      "Type Of School ": "Government",
+      TypeCodes: "hearingImpaired",
+    },
+  ],
+  visuallyImpaired: [
+    {
+      Type: "Visual Impairement ",
+      "Name of School": "SKPK Muar (SEKOLAH KEBANSAAN PENDIDIKAN KHAS MUAR ",
+      Website: "https://skpkmuar.wordpress.com/",
+      "Email ": "JEA5094@moe.gov.my",
+      "Handphone Number ": "06-9515022",
+      "Address ":
+        "SR Pendidikan Khas Muar, Jalan Tunku Bendahara, Kampung Dato Bentara Luar, 84000 Muar Johor ",
+      "Education Level ": "Primary ",
+      "Facilities Offered": "Hearing Aid , Disable Toilet and Disable Parking ",
+      "Type Of School ": "Government",
+      TypeCodes: "visuallyImpaired",
+    },
+    {
+      Type: "Visual Impairement ",
+      "Name of School":
+        "SMKV Inderapura ( SM Pendidikan Khas Vokational Inderapura)",
+      Website: "http://smpkvip.blogspot.com/",
+      "Email ": "JEA8014@moe.gov.my",
+      "Handphone Number ": "07-36625625",
+      "Address ":
+        "SM Pendidikan Khas Vokasional, Sisiran Indahpura 36/6, Taman Muhibbah, 81000 Senai Johor",
+      "Education Level ": "Secondary ",
+      "Facilities Offered": "Hearing Aid , Disable Toilet and Disable Parking ",
+      "Type Of School ": "Government",
+      TypeCodes: "visuallyImpaired",
+    },
+  ],
+  slowLearner: [
+    {
+      Type: "Slow Learner",
+      "Name of School": "SK PENDIDIKAN KHAS KOTA SAMARAHAN ",
+      Website: "http://skpkkotasamarahan.blogspot.com/",
+      "Email ": "YBB1204@moe.gov.my",
+      "Handphone Number ": "082-673672",
+      "Address ":
+        "SKPK KOTA SAMARAHAN , JALAN DATO MUHD MUSA ,94300 SAMARAHAN, SARAWAK ",
+      "Education Level ": "Primary ",
+      "Facilities Offered": "Disable Toilet and Disable Ramps ",
+      "Type Of School ": "Government",
+      TypeCodes: "slowLearner",
+    },
+    {
+      Type: "Slow Learner",
+      "Name of School":
+        "SMKV Inderapura ( SM Mengengah  Pendidikan Khas Vokational Inderapura)",
+      Website: "http://smpkvip.blogspot.com/",
+      "Email ": "JEA8014@moe.gov.my",
+      "Handphone Number ": "07-36625625",
+      "Address ":
+        "SM Pendidikan Khas Vokasional, Sisiran Indahpura 36/6, Taman Muhibbah, 81000 Senai Johor ",
+      "Education Level ": "Secondary ",
+      "Facilities Offered":
+        "Braille ,Hearing Aid, Disable Toilet and Disable Parking  ",
+      "Type Of School ": "Government",
+      TypeCodes: "slowLearner",
+    },
+  ],
+  dyslexic: [
+    {
+      Type: "Dyslexia",
+      "Name of School": "The International School of Kuala Lumpur (ISKL)",
+      Website: "https://www.iskl.edu.my/",
+      "Email ": "iskl@iskl.edu.my",
+      "Handphone Number ": "03-48135000",
+      "Address ":
+        "No. 2, Lorong Kelab Polo Di Raja, Ampang Hilir, 55000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+      "Education Level ": "Primary and Secondary ",
+      "Facilities Offered":
+        "Disable Ramps , Disable Toilets and Disable Parking ",
+      "Type Of School ": "Private",
+      TypeCodes: "dyslexic",
+    },
+  ],
+  ADHD: [
+    {
+      Type: "ADHD",
+      "Name of School": "The International School of Kuala Lumpur (ISKL)",
+      Website: "https://www.iskl.edu.my/",
+      "Email ": "iskl@iskl.edu.my",
+      "Handphone Number ": "03-48135000",
+      "Address ":
+        "No. 2, Lorong Kelab Polo Di Raja, Ampang Hilir, 55000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+      "Education Level ": "Primary and Secondary ",
+      "Facilities Offered":
+        "Disable Ramps , Disable Toilets and Disable Parking ",
+      "Type Of School ": "Private",
+      TypeCodes: "ADHD",
+    },
+  ],
+};
+
+export const categories = [
+  { categoryId: "hearingImpaired", text: "Hearing Impaired" },
+  { categoryId: "visuallyImpaired", text: "Visually impaired" },
+  { categoryId: "slowLearner", text: "Slow Learner" },
+  { categoryId: "dyslexic", text: "Dyslexic" },
+  { categoryId: "ADHD", text: "ADHD" },
+];
