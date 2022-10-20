@@ -12,6 +12,7 @@ export const schoolByCat = {
       "Facilities Offered": "Hearing Aid , Disable Toilet and Disable Parking ",
       "Type Of School ": "Government",
       TypeCodes: "hearingImpaired",
+      index: 1,
     },
     {
       Type: "Hearing Impairment",
@@ -26,6 +27,7 @@ export const schoolByCat = {
         "Braill , Hearing Aid , Disable Toilet and Disable Parking ",
       "Type Of School ": "Government",
       TypeCodes: "hearingImpaired",
+      index: 2,
     },
     {
       Type: "Hearing Impairment",
@@ -41,6 +43,7 @@ export const schoolByCat = {
         "Hearing Aid , Disable Toilet and Disable Parking , Disable Ramp and Hand Railing ",
       "Type Of School ": "Government",
       TypeCodes: "hearingImpaired",
+      index: 3,
     },
     {
       Type: "Hearing Impairment",
@@ -54,6 +57,7 @@ export const schoolByCat = {
       "Facilities Offered": "Disable Toilet and Disable Ramps ",
       "Type Of School ": "Government",
       TypeCodes: "hearingImpaired",
+      index: 4,
     },
     {
       Type: "Hearing Impairment",
@@ -67,6 +71,7 @@ export const schoolByCat = {
         "Hearing Aid , Disable Toilet and Disable  Parking , Disable Ramp and Hand Railing ",
       "Type Of School ": "Govermernt ",
       TypeCodes: "hearingImpaired",
+      index: 5,
     },
     {
       Type: "Hearing Impairment",
@@ -82,6 +87,7 @@ export const schoolByCat = {
         "Braill, Hearing Aid , Disable Toilet and Disable Parking ",
       "Type Of School ": "Government",
       TypeCodes: "hearingImpaired",
+      index: 6,
     },
   ],
   visuallyImpaired: [
@@ -97,6 +103,7 @@ export const schoolByCat = {
       "Facilities Offered": "Hearing Aid , Disable Toilet and Disable Parking ",
       "Type Of School ": "Government",
       TypeCodes: "visuallyImpaired",
+      index: 7,
     },
     {
       Type: "Visual Impairement ",
@@ -111,6 +118,7 @@ export const schoolByCat = {
       "Facilities Offered": "Hearing Aid , Disable Toilet and Disable Parking ",
       "Type Of School ": "Government",
       TypeCodes: "visuallyImpaired",
+      index: 8,
     },
   ],
   slowLearner: [
@@ -126,6 +134,7 @@ export const schoolByCat = {
       "Facilities Offered": "Disable Toilet and Disable Ramps ",
       "Type Of School ": "Government",
       TypeCodes: "slowLearner",
+      index: 9,
     },
     {
       Type: "Slow Learner",
@@ -141,6 +150,7 @@ export const schoolByCat = {
         "Braille ,Hearing Aid, Disable Toilet and Disable Parking  ",
       "Type Of School ": "Government",
       TypeCodes: "slowLearner",
+      index: 10,
     },
   ],
   dyslexic: [
@@ -157,6 +167,7 @@ export const schoolByCat = {
         "Disable Ramps , Disable Toilets and Disable Parking ",
       "Type Of School ": "Private",
       TypeCodes: "dyslexic",
+      index: 11,
     },
   ],
   ADHD: [
@@ -173,6 +184,7 @@ export const schoolByCat = {
         "Disable Ramps , Disable Toilets and Disable Parking ",
       "Type Of School ": "Private",
       TypeCodes: "ADHD",
+      index: 12,
     },
   ],
 };
