@@ -1,22 +1,28 @@
+import Link from "next/link";
 import { cols, schoolByIndex } from "../../site/data";
 
 export default function Category(props) {
   const { school } = props;
 
   return (
-    <div className="p-2">
+    <div className="grid p-2 gap-2">
       <div class="grid">
         {cols.map((col) => (
-          <div className="sm:flex justify-between border border-y-2">
-            <div className="min-w-content whitespace-nowrap bg-lime-200 font-bold">
+          <div className="sm:flex justify-between border border-y-2 bg-fuchsia-200 p-2">
+            <div className="min-w-content whitespace-nowrap font-bold">
               {col}
             </div>
-            <div className="text-right break-words bg-fuchsia-200 flex-grow">
+            <div className="pl-2 text-right break-words flex-grow">
               {school[col]}
             </div>
           </div>
         ))}
       </div>
+      <Link href={`/categories/${school.TypeCodes}`}>
+        <button className="border border-black rounded-xl mx-auto py-1 px-2">
+          Back to {school.Type} category
+        </button>
+      </Link>
     </div>
   );
 }

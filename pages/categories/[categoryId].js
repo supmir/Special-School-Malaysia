@@ -5,7 +5,7 @@ export default function Category(props) {
   const { schools } = props;
 
   return (
-    <div className="grid gap-8">
+    <div className="grid gap-8 p-2">
       <div className="mx-auto text-2xl text-bold">
         {schools && schools[0]["Type"]}
       </div>
