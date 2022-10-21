@@ -19,7 +19,7 @@ export default function Category(props) {
         ))}
       </div>
       <Link href={`/categories/${school.TypeCodes}`}>
-        <button className="border border-black rounded-xl mx-auto py-1 px-2">
+        <button className="border border-black rounded-xl mx-auto py-1 px-2 bg-lime-200">
           Back to {school.Type} category
         </button>
       </Link>

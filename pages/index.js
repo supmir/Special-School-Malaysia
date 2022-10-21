@@ -14,7 +14,7 @@ export default function Home() {
           {categories.map(({ categoryId, text }) => (
             <div className="w-full sm:w-1/2 md:w-1/3 px-2">
               <Link href={`/categories/${categoryId}`}>
-                <div className="text-center border border-black rounded-xl">
+                <div className="text-center border border-black rounded-xl bg-fuchsia-200">
                   {text}
                 </div>
               </Link>

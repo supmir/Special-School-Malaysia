@@ -12,14 +12,14 @@ export default function Category(props) {
       <div className="grid gap-2">
         {schools.map((schoolInfo) => (
           <Link href={`/schools/${schoolInfo["index"]}`}>
-            <button className="border border-black rounded-xl mx-auto py-1 px-2">
+            <button className="border border-black rounded-xl mx-auto py-1 px-2 bg-fuchsia-200">
               <div>{schoolInfo["Name of School"]}</div>
             </button>
           </Link>
         ))}
       </div>
       <Link href="/">
-        <button className="border border-black rounded-xl mx-auto py-1 px-2">
+        <button className="border border-black rounded-xl mx-auto py-1 px-2 bg-lime-200">
           <div>Back</div>
         </button>
       </Link>
