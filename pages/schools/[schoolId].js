@@ -10,7 +10,10 @@ export default function Category(props) {
       <div className="grid gap-2">
         <div class="grid">
           {cols.map((col) => (
-            <div className="sm:flex justify-between border border-y-2 bg-fuchsia-200 hover:bg-fuchsia-100 p-2">
+            <div
+              className="sm:flex justify-between border border-y-2 bg-fuchsia-200 hover:bg-fuchsia-100 p-2"
+              key={col}
+            >
               <div className="min-w-content whitespace-nowrap font-bold">
                 {col}
               </div>
