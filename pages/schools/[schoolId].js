@@ -22,7 +22,6 @@ export async function getStaticPaths() {
 }
 export async function getStaticProps(context) {
   const { schoolId } = context.params;
-  console.log(schoolByIndex[schoolId]);
   return {
     props: {
       school: schoolByIndex[schoolId],
