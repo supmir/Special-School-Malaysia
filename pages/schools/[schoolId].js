@@ -1,13 +1,23 @@
+import { Fragment } from "react/cjs/react.production.min";
 import { cols, schoolByIndex } from "../../site/data";
 
 export default function Category(props) {
   const { school } = props;
 
   return (
-    <div>
-      {cols.map((col) => (
-        <div>{school[col]}</div>
-      ))}
+    <div className="p-2">
+      <div class="grid grid-cols-2">
+        {cols.map((col) => (
+          <Fragment>
+            <div className="min-w-content whitespace-nowrap border border-slate-500">
+              {col}
+            </div>
+            <div className="text-right break-words border border-slate-500">
+              {school[col]}
+            </div>
+          </Fragment>
+        ))}
+      </div>
     </div>
   );
 }
