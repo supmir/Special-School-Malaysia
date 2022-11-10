@@ -24,16 +24,26 @@ export default function Category(props) {
               onError={() => setSrc(`/images/${schoolId}.webp`)}
             />
           </div>
-          {cols.map((col) => (
+          {cols.map(({ colName, colType }) => (
             <div
               className="sm:flex justify-between border border-y-2 bg-fuchsia-200 hover:bg-fuchsia-100 p-2"
-              key={col}
+              key={colName}
             >
               <div className="min-w-content whitespace-nowrap font-bold">
-                {col}
+                {colName}
               </div>
               <div className="pl-2 text-right break-words flex-grow">
-                {school[col]}
+                {colType === "text" ? (
+                  school[colName]
+                ) : colType === "link" ? (
+                  <Link href={school[colName]}>
+                    <a className="underline text-blue-500">{school[colName]}</a>
+                  </Link>
+                ) : (
+                  <Link href={`mailto:${school[colName]}`}>
+                    <a className="underline text-blue-500">{school[colName]}</a>
+                  </Link>
+                )}
               </div>
             </div>
           ))}

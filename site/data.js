@@ -376,13 +376,13 @@ export const categories = [
   { text: "ADHD", categoryId: "ADHD" },
 ];
 export const cols = [
-  "Type",
-  "Name of School",
-  "Website",
-  "Email ",
-  "Handphone Number ",
-  "Address ",
-  "Education Level ",
-  "Facilities Offered",
-  "Type Of School ",
+  { colName: "Type", colType: "text" },
+  { colName: "Name of School", colType: "text" },
+  { colName: "Website", colType: "link" },
+  { colName: "Email ", colType: "email" },
+  { colName: "Handphone Number ", colType: "text" },
+  { colName: "Address ", colType: "text" },
+  { colName: "Education Level ", colType: "text" },
+  { colName: "Facilities Offered", colType: "text" },
+  { colName: "Type Of School ", colType: "text" },
 ];
